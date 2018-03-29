@@ -281,9 +281,6 @@ def load_data(dataset, theta):
 
         cPickle.dump(st, open(os.path.join(os.path.abspath('..'), 'data/st' + str(theta) + '.pkl'), 'wb'))
 
-
-
-
     cpickle_dataset(valid_set, train_set, test_set, borrow = True)
 
 dataset=os.path.join(os.path.abspath('..'), 'data/mnist.pkl.gz')
